@@ -16,7 +16,10 @@ char * strcpy(char *dest, char *src)
 }
  
 void main
+{
 	char src[] = "this is a test";
 	char *dest = new char[strlen(src) + 1];
+ 
 	strcpy(dest, src);
+}
 
